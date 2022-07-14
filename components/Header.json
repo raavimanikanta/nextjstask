@@ -1,0 +1,35 @@
+{
+    "mainTitle":"TRAN TRIM",
+    "icons":[
+        {
+           "iconUrl":"https://i.ibb.co/FDYCC26/search.png"
+        },
+        {
+            "iconUrl":"https://i.ibb.co/fDhRzBY/user-alt.png"
+         },
+         {
+            "iconUrl":"https://i.ibb.co/zRSLtjv/Bookmark.png"
+         },
+         {
+            "iconUrl":"https://i.ibb.co/WpyGpK0/shoppingbag.png"
+         }
+    ],
+    "headerTitles":[
+        {
+            "title":"Bags"
+        },
+        {
+            "title":"Travel"
+        },
+        {
+            "title":"Accessories"
+        },
+        {
+            "title":"Gifting"
+        },
+        {
+            "title":"Jewellery"
+        }
+    ]
+
+}

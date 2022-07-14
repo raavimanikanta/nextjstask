@@ -2,33 +2,51 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+### React-Assignment using Nextjs :-
+   This assignment is made by using reactjs framework called nextjs 
+   This application consists of header,lists of bags ,and products header which indicates the number of products.
+   The main aim of the project is to fetch the data from Api and render to the components.
+   The data fetched from the Api is related to women it includes categories  like :
+    Bags,jwellery,footwear,fashion . 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Header:-
+   This header shows all the categories which present in the entire application like bags,accesories,jwellery,fashion.
+## Web Page Design :-
+    I have designed the webpage by using the layout which has been made in the figma by taking that layout as the reference 
+    I made this entire application.After making the layout as per the layout which is designed in figma.I used the Api link and fetched 
+    the data according to the view of the application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## To Import the images :-
+   In order to use the images in this  project which are not present in the api link I saved the images from figma layout and stored all the 
+   images in the json format and fetched the  data and rendered to the compoonents .
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+   In order use the images directly by saving in the folders .There is need to import particular image from the respective path 
+   and we sholuld also import (Image) from the "next/image" .
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### To Fetch the data from Api :- 
+     In this project there is need to fetch the list of the products details like :
+     The products images ,the actual price and special price of the products and the discount provided for the particular product.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+     To fetch the data using the Nextjs. I have created a function and used the async, await keywords and  getStaticProps .
+     and after getting the response from the Api .I passed that response (or)the data  which received through the Api to the product card 
+     and by using the map array method fetched and rendered the list of products data to the respective productcard component .
+     Through this i have got the products details like name ,price ,discount of the product .
 
-## Learn More
+     There are 10 products in the list of the products..
 
-To learn more about Next.js, take a look at the following resources:
+## CSS (styling to the application ):-
+    To make the layout attractive ,I have given styling to the application .
+    I have created the separate module.css files and provided styling to the respective component .
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **
+  created all the components using the react  and imported the components to the nextjs pages folder.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+ 
+
+
+
